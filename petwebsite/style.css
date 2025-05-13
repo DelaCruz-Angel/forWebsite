@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+   overflow-x: hidden;
+}
+
+.main {
+  width: 100vw;
+  background: linear-gradient(to top, rgba(253, 222, 173, 0.25) 50%, rgba(253, 222, 173, 0.18) 50%), url(yellow.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 640px;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.logo {
+  color: rgba(0, 0, 0);
+  font-size: 25px;
+  font-family: Arial Narrow;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial Narrow;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: #000; /* Optional hover effect */
+}
+
+.txt {
+  position: absolute;     /* allows manual placement */
+  top: 30%;               /* distance from the top */
+  left: 60%;              /* distance from the left */
+  color: #000000;            /* text color */
+  font-family: Arial, sans-serif;
+  text-shadow: 1px 1px 3px #ecf5ae;
+}
+
+.txt {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #000000;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  font-family: Arial, sans-serif;
+  text-shadow: 1px 1px 3px #ecf5ae;
+}
+
+.txt .par {
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial Narrow;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+
+.txt .hl {
+  font-family: "Times New Roman";
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+
+.cn {
+  display: inline-block; /* Makes <a> obey width & height */
+  width: 160px;
+  height: 40px;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px; /* Vertically centers text */
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.txt .cn a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.txt .cn:hover {
+  background-color: #ecf6c4;
+}
+
+.form {
+  width: 300px;
+  background: linear-gradient(to top, rgba(255, 252, 177, 0.655) 50%, rgba(255, 252, 177, 0.655) 50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(249, 244, 141, 0.58);
+}
+
+.form h2 {
+  font-family: sans-serif;
+  text-align: center;
+  color: #000000;
+  font-size: 22px;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.form input {
+  width: 100%;
+  height: 35px;
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #000000;
+  color: #b95959;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  padding-left: 5px;
+}
+
+::placeholder {
+  color: #000000;
+  font-family: Arial;
+}
+
+.btrn {
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffa9a9;
+  transition: 0.4s ease;
+}
+
+.btrn:hover {
+  background: #fff;
+  color: #000000;
+}
+
+.sign {
+  color: #f7ff8a; /* or any other color you prefer */
+  text-decoration: none;
+  font-weight: bold;
+}
